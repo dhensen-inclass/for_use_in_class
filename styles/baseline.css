@@ -1,0 +1,25 @@
+.body {
+  color: firebrick;
+  transition-duration: 0.5s;
+  max-width: 85em;
+  align-content: center;
+}
+.button {
+  background-color: silver;
+  border-color: slateblue;
+  color: steelblue;
+  max-width: 85pt;
+  max-height: 70pt;
+  font-weight: 400;
+  transition-duration: 0.5s;
+}
+.button:active {
+  background-color: orchid;
+  border-color: purple;
+  color: rebeccapurple;
+}
+.button:hover {
+  background-color: dimgray;
+  border-color: darkslateblue;
+  color: dodgerblue;
+}
