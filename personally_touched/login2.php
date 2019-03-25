@@ -1,8 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<link rel="stylesheet" type="text/css" href="styles/social_web_app.css">
-	<link href="lib/bootstrap-4.0.0/dist/css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="">
 </head>
 <body>
 <?php
@@ -30,7 +29,7 @@ if (!isset($_SESSION['form_token'])){
 	//FUNCTION RECEIVES VARIABLES WHEN CALLED
 	function authenticate_user($email_a, $passcode){
 	//QUERY DATABASE/ACTIVE DIRECTORY TO SEE IF USER IS VALID
-if ($email == "cphoung@asia.com") {
+if ($email == "insert valid email b4 testing") {
 	/*** set a form token ***/
 	$form_token = md5( uniqid('auth', true) );
 	/*** set the session form token ***/
