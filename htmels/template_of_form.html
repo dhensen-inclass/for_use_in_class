@@ -7,21 +7,35 @@
 <body>
 <header>
 </header>
-<form action="form.php" method="POST">
-	<label for="last_name">last name</label>
-	<input type="text" name="last_name" placeholder="black">
-	<br>
-	<label for="first_name">first name</label>
-	<input type="text" name="first_name" placeholder="jack">
-	<br>
-	<label for="email_a">email address</label>
-	<input type="email" name="email_a" placeholder="hardknocks@guitar.com">
-	<br>
-	<button type="submit" name="submit"></button>
+<center>
+<form action="recieving_page.php" method="post">
+	<div>
+		<label for="usr_name">user name: </label>
+		<br>
+		<input type="text" name="usr_name" placeholder="jack_black_lvr" required="usr_name">
+		<br><br>
+		</div>
+		<br><br>
+		<label for="email_a">email address: </label>
+		<br>
+		<input type="email" name="email_a" placeholder="hardknocks@guitar.com" required="email_a">
+		<br><br>
+		<div>
+		<button type="submit" name="submit"> submit </button>
+	</div>
 </form>
+</center>
 <section>
-	<p></p>
-	<p></p>
+<center>
+	<h2>Already Registered? This will take you back to the main page.</h2>
+	<a href="">
+		<button type="text"> back </button>
+	</a>
+	<h2>Not ready to register? Click here to continue as an anonymous guest</h2>
+	<a href="">
+		<button type="text"> forward </button>
+	</a>
+</center>
 </section>
 </body>
 </html>
