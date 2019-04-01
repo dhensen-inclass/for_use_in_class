@@ -1,0 +1,27 @@
+h1, h2, h3 {
+	color: mediumseagreen;
+	text-shadow: 2px 2px midnightblue;
+}
+h1 {
+	font-size: 32pt;
+	font-weight: bolder;
+}
+h2 {
+	font-size: 27pt;
+}
+h3 {
+	font-size: 25pt;
+}
+a {
+	text-decoration-line: none;
+}
+p {
+	color: darkcyan;
+	text-shadow: 1px 1px darkblue;
+	font-size: 16pt;
+}
+#other_txt {
+	color: aquamarine;
+	text-shadow: 1px 1px darkcyan;
+	font-size: 16pt;
+}

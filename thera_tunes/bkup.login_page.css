@@ -1,0 +1,36 @@
+*2935909F4A72FD39F162320D4F8EA300F36E3352body {
+	background-position: center;
+	background-image: url("friends.jpg");
+	position: absolute;
+	background-color: violet;
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-width: 99%;
+	min-height: 99%;
+	max-width: 100%;
+	max-height: 100%;
+	}
+.boxd {
+	border-style: dashed;
+	border-width: thick;
+	border-color: black;
+	background-color: magenta;
+	opacity: 0.4;
+	margin: 15px;
+}
+input (type="text"), (type="password") {
+	line-height: 1;
+	width: 140px;
+	padding: 25px;
+	margin: 10px;
+	text-align: center;
+	align-content: center;
+	outline: solid;
+	outline-color: black;
+	position: relative;
+}
+#text2 {
+	color: purple;
+	text-align: center;
+	text-shadow: 2px 2px black;
+}
