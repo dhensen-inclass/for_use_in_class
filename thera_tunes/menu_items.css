@@ -1,6 +1,13 @@
 body {
   background-color: paleturquoise;
 }
+a {
+  text-decoration-style: none;
+  text-decoration-line: none;
+  color: inherit;
+  font-family: inherit;
+  font-size: inherit;
+}
 .teal_theme {
   overflow: hidden;
   background-color: lightskyblue;
@@ -59,4 +66,36 @@ body {
 .drops:hover .down_list-content {
   display: block;
 }
-
+.dl_tan {
+  background-color: wheat;
+  border: 2px solid peru;
+  border-collapse: all;
+  color: lightseagreen;
+  margin: 10px;
+  padding: 5px;
+  margin-top: 30px;
+  text-shadow: 1px 1px midnightblue;
+  font-size: 19pt;
+  max-width: 20%;
+  min-width: 12%;
+  overflow: auto;
+  font-family: arial;
+}
+dd {
+  font-size: 16pt;
+}
+.blue_box {
+  background-color: wheat;
+  border: 2px solid peru;
+  border-collapse: all;
+  color: lightseagreen;
+  margin: 10px;
+  padding: 5px;
+  margin-top: 30px;
+  text-shadow: 1px 1px midnightblue;
+  font-size: 19pt;
+  max-width: 32%;
+  min-width: 21%;
+  overflow: auto;
+  font-family: arial;
+}
